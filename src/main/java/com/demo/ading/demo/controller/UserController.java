@@ -47,7 +47,9 @@ public class UserController {
         result.put("user", userInfo);
 
         log.debug("[钉钉] 用户免登, 根据免登授权码code, corpId获取用户信息, code: {}, corpId:{}, result:{}", code, result);
-
+        System.out.println("测试github");
+        System.out.println("测试github");
+        System.out.println("测试github");
         logger.info(result.toString());
 
         return result;
